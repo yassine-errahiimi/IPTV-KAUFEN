@@ -3,21 +3,21 @@ import type { Metadata } from 'next'
 const BASE_URL = 'https://iptv-kaufen.de'
 
 export const metadata: Metadata = {
-  title: 'IPTV Anbieter Deutschland – Live-TV, Sender & Streaming',
+  title: 'IPTV kaufen bei einem zuverlässigen IPTV Anbieter – Flexible IPTV-Abonnementpläne für Deutschland',
   description:
     'IPTV kaufen in Deutschland: Live-TV, internationale Sender, Filme und Serien. Flexible Abonnementpläne für Smart TV, Android, Fire TV, Apple TV und mehr.',
   alternates: {
     canonical: `${BASE_URL}/`,
   },
   openGraph: {
-    title: 'IPTV Anbieter Deutschland – Live-TV, Sender & Streaming | IPTV Kaufen',
+    title: 'IPTV kaufen bei einem zuverlässigen IPTV Anbieter – Flexible IPTV-Abonnementpläne für Deutschland | IPTV Kaufen',
     description:
       'IPTV kaufen in Deutschland: Live-TV, internationale Sender, Filme und Serien. Flexible Abonnementpläne für Smart TV, Android, Fire TV und mehr.',
     url: `${BASE_URL}/`,
     type: 'website',
   },
   twitter: {
-    title: 'IPTV Anbieter Deutschland – Live-TV, Sender & Streaming | IPTV Kaufen',
+    title: 'IPTV kaufen bei einem zuverlässigen IPTV Anbieter – Flexible IPTV-Abonnementpläne für Deutschland | IPTV Kaufen',
     description:
       'IPTV kaufen in Deutschland: Live-TV, internationale Sender, Filme und Serien. Flexible Abonnementpläne für Smart TV, Android, Fire TV und mehr.',
   },
