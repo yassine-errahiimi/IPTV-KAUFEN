@@ -184,7 +184,7 @@ export default function Page() {
           <a href="/">Startseite</a>
           <a href="/blog">Blog</a>
           <a href="/#plans">Abonnements</a>
-          <a href="/#contact">Kontakt</a>
+          <a href="https://wa.me/212783327023?text=Hallo%2C%20ich%20habe%20eine%20Frage%20zu%20Ihren%20IPTV-Diensten." target="_blank" rel="noopener noreferrer">Kontakt</a>
         </nav>
         <a className="nav-button" href="#plans">Jetzt abonnieren</a>
       </header>
@@ -445,7 +445,7 @@ export default function Page() {
         <div>
           <b>Hilfe</b>
           <a href="#faqs">FAQ</a>
-          <a href="#contact">Kontakt</a>
+          <a href="https://wa.me/212783327023?text=Hallo%2C%20ich%20habe%20eine%20Frage%20zu%20Ihren%20IPTV-Diensten." target="_blank" rel="noopener noreferrer">Kontakt</a>
         </div>
         <div>
           <b>Rechtliches</b>
