@@ -58,35 +58,35 @@ const posterRows = [
 
 const plans = [
   {
-    name: '1 Month',
+    name: '1 Monat',
     badge: '',
     savings: '',
     price: '€14.99',
-    period: '1 Month',
+    period: '1 Monat',
     features: ['+20.000 Channels', '1 Device 1 Connection', '+100.000 VOD', 'HD FHD & 4K Quality', '%99.99 Uptime', 'Without Freezing', 'Supported All Devices', 'Refund supported', '24/7 Support'],
   },
   {
-    name: '3 Months',
+    name: '3 Monate',
     badge: '',
     savings: '',
     price: '€24.99',
-    period: '3 Months',
+    period: '3 Monate',
     features: ['+20.000 Channels', '1 Device 1 Connection', '+100.000 VOD', 'HD FHD & 4K Quality', '%99.99 Uptime', 'Without Freezing', 'Supported All Devices', 'Refund supported', '24/7 Support'],
   },
   {
-    name: '6 Months',
+    name: '6 Monate',
     badge: '',
     savings: '',
     price: '€34.99',
-    period: '6 Months',
+    period: '6 Monate',
     features: ['+20.000 Channels', '1 Device 1 Connection', '+100.000 VOD', 'HD FHD & 4K Quality', '%99.99 Uptime', 'Without Freezing', 'Supported All Devices', 'Refund supported', '24/7 Support'],
   },
   {
-    name: '1 Year',
+    name: '1 Jahr',
     badge: 'Popular',
     savings: '',
     price: '€59.99',
-    period: '1 Year',
+    period: '1 Jahr',
     features: ['+20.000 Channels', '1 Device 1 Connection', '+100.000 VOD', 'HD FHD & 4K Quality', '%99.99 Uptime', 'Without Freezing', 'Supported All Devices', 'Refund supported', '24/7 Support'],
   },
 ]
