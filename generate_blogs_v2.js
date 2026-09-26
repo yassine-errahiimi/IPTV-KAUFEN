@@ -62,7 +62,7 @@ export default function BlogPostPage() {
         </div>
       </section>
 
-      <article style={{ maxWidth: '800px', margin: '0 auto', padding: '60px 20px', backgroundColor: '#fff', boxShadow: '0 -20px 40px rgba(0,0,0,0.03)', borderRadius: '20px', position: 'relative', top: '-20px', zIndex: 2 }}>
+      <article style={{ width: '95%', maxWidth: '1400px', margin: '0 auto', padding: '60px 5%', backgroundColor: '#fff', boxShadow: '0 -20px 40px rgba(0,0,0,0.03)', borderRadius: '20px', position: 'relative', top: '-20px', zIndex: 2 }}>
         
         <div style={{ fontSize: '18px', lineHeight: '1.8', color: '#333' }}>
           <p style={{ fontSize: '22px', color: '#111', fontWeight: 500, lineHeight: 1.6, marginBottom: '40px', borderLeft: '4px solid #d71920', paddingLeft: '20px' }}>
@@ -77,6 +77,10 @@ export default function BlogPostPage() {
           <div style={{ margin: '40px 0', padding: '30px', backgroundColor: '#f9f9f9', borderRadius: '12px', border: '1px solid #eee' }}>
             <h3 style={{ margin: '0 0 15px 0', color: '#d71920', fontSize: '24px' }}>Tipp der Redaktion</h3>
             <p style={{ margin: 0, fontSize: '16px' }}>Um das volle Potenzial von <strong>${blog.keyword}</strong> auszuschöpfen, empfehlen wir eine Internetverbindung mit mindestens 50 Mbit/s. So stellen Sie sicher, dass selbst 4K-Inhalte flüssig und ohne störendes Buffering laufen.</p>
+          </div>
+
+          <div style={{ textAlign: 'center', margin: '40px 0' }}>
+            <a href="/#plans" style={{ display: 'inline-block', background: '#d71920', color: '#fff', padding: '16px 40px', borderRadius: '30px', textDecoration: 'none', fontWeight: 800, textTransform: 'uppercase', fontSize: '18px', boxShadow: '0 8px 20px rgba(215,25,32,0.3)' }}>Jetzt Abonnieren</a>
           </div>
 
           <h2 style={{ fontSize: '32px', color: '#111', fontFamily: '\\'Barlow Condensed\\', sans-serif', marginTop: '50px', marginBottom: '20px', textTransform: 'uppercase' }}>2. Die größten Vorteile von IPTV</h2>
@@ -116,6 +120,10 @@ export default function BlogPostPage() {
           <p><strong>Multi-Screen und Multi-Connection:</strong> Oft möchten verschiedene Familienmitglieder unterschiedliche Dinge schauen. Während der Vater Fußball auf dem großen Smart TV schaut, möchte das Kind vielleicht Cartoons auf dem Tablet sehen. Premium-Abos bieten die Möglichkeit, 2 bis 5 Geräte gleichzeitig zu nutzen.</p>
           <p><strong>VPN-Kompatibilität:</strong> In der heutigen Zeit ist Online-Sicherheit essenziell. Ein guter IPTV-Dienst sollte problemlos mit den gängigen VPN-Anbietern (Virtual Private Network) funktionieren, um Ihre Privatsphäre zu schützen und ein Drosseln der Internetgeschwindigkeit durch den Provider (ISP-Throttling) zu verhindern.</p>
 
+          <div style={{ textAlign: 'center', margin: '40px 0' }}>
+            <a href="/#plans" style={{ display: 'inline-block', background: '#d71920', color: '#fff', padding: '16px 40px', borderRadius: '30px', textDecoration: 'none', fontWeight: 800, textTransform: 'uppercase', fontSize: '18px', boxShadow: '0 8px 20px rgba(215,25,32,0.3)' }}>Unsere IPTV-Pläne ansehen</a>
+          </div>
+
           <h2 style={{ fontSize: '32px', color: '#111', fontFamily: '\\'Barlow Condensed\\', sans-serif', marginTop: '50px', marginBottom: '20px', textTransform: 'uppercase' }}>5. Worauf Sie beim Kauf achten sollten</h2>
           <p>Das Internet ist voll von Angeboten, wenn man nach <em>${blog.keyword}</em> sucht. Doch Vorsicht: Nicht jedes Angebot hält, was es verspricht. Hier sind die wichtigsten Kriterien für Ihre Entscheidung:</p>
           <ul style={{ paddingLeft: '20px', marginBottom: '30px' }}>
@@ -124,6 +132,10 @@ export default function BlogPostPage() {
             <li style={{ marginBottom: '10px' }}><strong>Sender-Sortiment (Länderspezifisch):</strong> Masse ist nicht immer Klasse. 50.000 Sender bringen Ihnen nichts, wenn die deutschen, österreichischen oder schweizerischen Sender fehlen. Achten Sie auf Pakete, die speziell für den DACH-Raum optimiert sind.</li>
             <li style={{ marginBottom: '10px' }}><strong>Aktualisierungen:</strong> Die VOD-Bibliothek (Filme & Serien) sollte regelmäßig, idealerweise wöchentlich, mit den neuesten Releases aktualisiert werden.</li>
           </ul>
+
+          <div style={{ textAlign: 'center', margin: '40px 0' }}>
+            <a href="/#plans" style={{ display: 'inline-block', background: '#111', color: '#fff', padding: '16px 40px', borderRadius: '30px', textDecoration: 'none', fontWeight: 800, textTransform: 'uppercase', fontSize: '18px', boxShadow: '0 8px 20px rgba(0,0,0,0.3)' }}>IPTV jetzt kaufen</a>
+          </div>
 
           <h2 style={{ fontSize: '32px', color: '#111', fontFamily: '\\'Barlow Condensed\\', sans-serif', marginTop: '50px', marginBottom: '20px', textTransform: 'uppercase' }}>6. Häufig gestellte Fragen (FAQ) zu ${blog.keyword}</h2>
           
@@ -140,6 +152,12 @@ export default function BlogPostPage() {
           <div style={{ marginBottom: '20px' }}>
             <h4 style={{ margin: '0 0 8px 0', fontSize: '20px', color: '#d71920' }}>Kann ich mein Abo ins Ausland mitnehmen?</h4>
             <p style={{ margin: 0 }}>Ja! Das ist einer der größten Vorteile. Sie sind nicht an einen Standort gebunden. Egal ob Sie in Spanien am Strand liegen oder in den USA geschäftlich unterwegs sind – Sie haben Ihr heimatliches Fernsehprogramm immer dabei.</p>
+          </div>
+
+          <div style={{ margin: '50px 0', padding: '40px 30px', background: '#f9f9f9', border: '2px solid #d71920', borderRadius: '16px', textAlign: 'center' }}>
+            <h3 style={{ fontSize: '28px', margin: '0 0 10px 0', color: '#111', fontFamily: '\\'Barlow Condensed\\', sans-serif' }}>Starten Sie heute mit dem besten IPTV Service</h3>
+            <p style={{ margin: '0 0 24px 0', fontSize: '16px', color: '#444' }}>Verpassen Sie nie wieder Ihre Lieblingssendungen, Live-Sport oder die neuesten Blockbuster.</p>
+            <a href="/#plans" style={{ display: 'inline-block', background: '#d71920', color: '#fff', padding: '14px 32px', borderRadius: '4px', textDecoration: 'none', fontWeight: 800, textTransform: 'uppercase', fontSize: '14px', letterSpacing: '1px' }}>Jetzt IPTV Abonnieren</a>
           </div>
 
           <h2 style={{ fontSize: '32px', color: '#111', fontFamily: '\\'Barlow Condensed\\', sans-serif', marginTop: '50px', marginBottom: '20px', textTransform: 'uppercase' }}>7. Fazit: Lohnt sich der Umstieg?</h2>

@@ -58,28 +58,36 @@ const posterRows = [
 
 const plans = [
   {
-    name: '1 Jahr',
-    badge: 'VIP',
-    savings: 'Sie sparen €60',
-    price: '€50',
-    period: '12 Monate',
-    features: ['+18.000 TV-Kanäle', '+45.000 Filme', '+15.000 Serien und TV-Shows', '4K / Ultra HD / HD Bildqualität', '24/7 technische Unterstützung', '99,9 % Verfügbarkeitsgarantie', 'Anpassung des IPTV-Pakets', 'VPN-Schutz inklusive', 'EPG & Catch-up'],
+    name: '1 Month',
+    badge: '',
+    savings: '',
+    price: '€14.99',
+    period: '1 Month',
+    features: ['+20.000 Channels', '1 Device 1 Connection', '+100.000 VOD', 'HD FHD & 4K Quality', '%99.99 Uptime', 'Without Freezing', 'Supported All Devices', 'Refund supported', '24/7 Support'],
   },
   {
-    name: '6 Monate',
+    name: '3 Months',
     badge: '',
-    savings: 'Sie sparen €19',
-    price: '€39,99',
-    period: '6 Monate',
-    features: ['+18.000 TV-Kanäle', '+45.000 Filme', '+15.000 Serien und TV-Shows', '4K / Ultra HD / HD Bildqualität', '24/7 technische Unterstützung', '99,9 % Verfügbarkeitsgarantie', 'Anpassung des IPTV-Pakets', 'VPN-Schutz inklusive', 'EPG & Catch-up'],
+    savings: '',
+    price: '€24.99',
+    period: '3 Months',
+    features: ['+20.000 Channels', '1 Device 1 Connection', '+100.000 VOD', 'HD FHD & 4K Quality', '%99.99 Uptime', 'Without Freezing', 'Supported All Devices', 'Refund supported', '24/7 Support'],
   },
   {
-    name: '3 Monate',
+    name: '6 Months',
     badge: '',
-    savings: 'Sie sparen €13',
-    price: '€19,99',
-    period: '3 Monate',
-    features: ['+18.000 TV-Kanäle', '+45.000 Filme', '+15.000 Serien und TV-Shows', '4K / Ultra HD / HD Bildqualität', '24/7 technische Unterstützung', '99,9 % Verfügbarkeitsgarantie', 'Anpassung des IPTV-Pakets', 'VPN-Schutz inklusive', 'EPG & Catch-up'],
+    savings: '',
+    price: '€34.99',
+    period: '6 Months',
+    features: ['+20.000 Channels', '1 Device 1 Connection', '+100.000 VOD', 'HD FHD & 4K Quality', '%99.99 Uptime', 'Without Freezing', 'Supported All Devices', 'Refund supported', '24/7 Support'],
+  },
+  {
+    name: '1 Year',
+    badge: 'Popular',
+    savings: '',
+    price: '€59.99',
+    period: '1 Year',
+    features: ['+20.000 Channels', '1 Device 1 Connection', '+100.000 VOD', 'HD FHD & 4K Quality', '%99.99 Uptime', 'Without Freezing', 'Supported All Devices', 'Refund supported', '24/7 Support'],
   },
 ]
 
@@ -273,14 +281,14 @@ export default function Page() {
         <div className="plan-grid">
           {plans.map((plan) => (
             <article
-              className={`plan ${plan.badge === 'VIP' ? 'featured' : ''}`}
+              className={`plan ${plan.badge ? 'featured' : ''}`}
               key={plan.name}
               aria-label={`${plan.name} IPTV-Plan – ${plan.price}`}
             >
               <span>
                 {plan.name} {plan.badge && <b>{plan.badge}</b>}
               </span>
-              <p className="savings">{plan.savings}</p>
+              {plan.savings && <p className="savings">{plan.savings}</p>}
               <strong>{plan.price}</strong>
               <small>{plan.period}</small>
               <ul>
