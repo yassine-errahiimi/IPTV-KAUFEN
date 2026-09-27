@@ -73,6 +73,9 @@ export const metadata: Metadata = {
     },
   },
   generator: 'Next.js',
+  verification: {
+    google: 'rrWWyy_LnYMQ2Un1kDFer0kuh0l2X7GMCTgLdPOWZms',
+  },
   icons: {
     icon: [
       {
