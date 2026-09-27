@@ -4,7 +4,7 @@ export const metadata: Metadata = {
   title: 'IPTV Blog – Tipps, Apps, Geräte & Streaming',
   description: 'Der IPTV Kaufen Blog: Tipps zu IPTV-Apps, Einrichtung auf Smart TV, Android und Fire TV, Senderlisten und mehr.',
   alternates: {
-    canonical: 'https://iptv-kaufen.de/blog',
+    canonical: 'https://iptv4k-kaufen.de/blog',
   },
 }
 

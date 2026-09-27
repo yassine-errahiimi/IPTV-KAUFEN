@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 
-const BASE_URL = 'https://iptv-kaufen.de'
+const BASE_URL = 'https://iptv4k-kaufen.de'
 
 export const metadata: Metadata = {
   title: 'IPTV kaufen bei einem zuverlässigen IPTV Anbieter – Flexible IPTV-Abonnementpläne für Deutschland',
@@ -63,7 +63,7 @@ const plans = [
     savings: '',
     price: '€14.99',
     period: '1 Monat',
-    features: ['+20.000 Channels', '1 Device 1 Connection', '+100.000 VOD', 'HD FHD & 4K Quality', '%99.99 Uptime', 'Without Freezing', 'Supported All Devices', 'Refund supported', '24/7 Support'],
+    features: ['+20.000 Sender', '1 Gerät / 1 Verbindung', '+100.000 Filme & Serien (VOD)', 'HD, FHD & 4K Qualität', '99,99% Verfügbarkeit', 'Ohne Ruckeln / Aussetzer', 'Unterstützt alle Geräte', 'Rückerstattung möglich', '24/7 Kundensupport'],
   },
   {
     name: '3 Monate',
@@ -71,7 +71,7 @@ const plans = [
     savings: '',
     price: '€24.99',
     period: '3 Monate',
-    features: ['+20.000 Channels', '1 Device 1 Connection', '+100.000 VOD', 'HD FHD & 4K Quality', '%99.99 Uptime', 'Without Freezing', 'Supported All Devices', 'Refund supported', '24/7 Support'],
+    features: ['+20.000 Sender', '1 Gerät / 1 Verbindung', '+100.000 Filme & Serien (VOD)', 'HD, FHD & 4K Qualität', '99,99% Verfügbarkeit', 'Ohne Ruckeln / Aussetzer', 'Unterstützt alle Geräte', 'Rückerstattung möglich', '24/7 Kundensupport'],
   },
   {
     name: '6 Monate',
@@ -79,15 +79,15 @@ const plans = [
     savings: '',
     price: '€34.99',
     period: '6 Monate',
-    features: ['+20.000 Channels', '1 Device 1 Connection', '+100.000 VOD', 'HD FHD & 4K Quality', '%99.99 Uptime', 'Without Freezing', 'Supported All Devices', 'Refund supported', '24/7 Support'],
+    features: ['+20.000 Sender', '1 Gerät / 1 Verbindung', '+100.000 Filme & Serien (VOD)', 'HD, FHD & 4K Qualität', '99,99% Verfügbarkeit', 'Ohne Ruckeln / Aussetzer', 'Unterstützt alle Geräte', 'Rückerstattung möglich', '24/7 Kundensupport'],
   },
   {
     name: '1 Jahr',
-    badge: 'Popular',
+    badge: 'Beliebt',
     savings: '',
     price: '€59.99',
     period: '1 Jahr',
-    features: ['+20.000 Channels', '1 Device 1 Connection', '+100.000 VOD', 'HD FHD & 4K Quality', '%99.99 Uptime', 'Without Freezing', 'Supported All Devices', 'Refund supported', '24/7 Support'],
+    features: ['+20.000 Sender', '1 Gerät / 1 Verbindung', '+100.000 Filme & Serien (VOD)', 'HD, FHD & 4K Qualität', '99,99% Verfügbarkeit', 'Ohne Ruckeln / Aussetzer', 'Unterstützt alle Geräte', 'Rückerstattung möglich', '24/7 Kundensupport'],
   },
 ]
 
@@ -190,6 +190,7 @@ export default function Page() {
         </a>
         <nav aria-label="Hauptnavigation">
           <a href="/">Startseite</a>
+          <a href="/ueber-uns/">Über uns</a>
           <a href="/blog">Blog</a>
           <a href="/#plans">Abonnements</a>
           <a href="https://wa.me/212783327023?text=Hallo%2C%20ich%20habe%20eine%20Frage%20zu%20Ihren%20IPTV-Diensten." target="_blank" rel="noopener noreferrer">Kontakt</a>
@@ -447,8 +448,8 @@ export default function Page() {
         </div>
         <div>
           <b>Unternehmen</b>
-          <a href="#top">Über uns</a>
-          <a href="#plans">Abonnements</a>
+          <a href="/ueber-uns/">Über uns</a>
+          <a href="/#plans">Abonnements</a>
         </div>
         <div>
           <b>Hilfe</b>

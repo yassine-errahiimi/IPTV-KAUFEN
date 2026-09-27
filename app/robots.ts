@@ -1,6 +1,6 @@
 import type { MetadataRoute } from 'next'
 
-const BASE_URL = 'https://iptv-kaufen.de'
+const BASE_URL = 'https://iptv4k-kaufen.de'
 
 export default function robots(): MetadataRoute.Robots {
   return {
@@ -8,7 +8,6 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: '*',
         allow: '/',
-        disallow: ['/blog'],
       },
     ],
     sitemap: `${BASE_URL}/sitemap.xml`,

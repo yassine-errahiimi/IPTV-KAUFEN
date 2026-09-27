@@ -3,7 +3,7 @@ import type { Metadata, Viewport } from 'next'
 import Script from 'next/script'
 import './globals.css'
 
-const BASE_URL = 'https://iptv-kaufen.de'
+const BASE_URL = 'https://iptv4k-kaufen.de'
 const BRAND = 'IPTV Kaufen'
 const OG_IMAGE = `${BASE_URL}/logo.webp`
 

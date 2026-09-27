@@ -22,12 +22,12 @@ export const metadata: Metadata = {
   title: '${blog.title} | IPTV Kaufen Blog',
   description: 'Umfassender Ratgeber über ${blog.keyword}. Erfahren Sie alles über Einrichtung, Funktionen und Vorteile von IPTV in Deutschland.',
   alternates: {
-    canonical: 'https://iptv-kaufen.de/blog/${blog.slug}',
+    canonical: 'https://iptv4k-kaufen.de/blog/${blog.slug}',
   },
   openGraph: {
     title: '${blog.title}',
     description: 'Umfassender Ratgeber über ${blog.keyword}.',
-    url: 'https://iptv-kaufen.de/blog/${blog.slug}',
+    url: 'https://iptv4k-kaufen.de/blog/${blog.slug}',
     type: 'article',
   },
 }
@@ -218,7 +218,7 @@ export const metadata: Metadata = {
   title: 'IPTV Blog – Tipps, Apps, Geräte & Streaming',
   description: 'Der IPTV Kaufen Blog: Tipps zu IPTV-Apps, Einrichtung auf Smart TV, Android und Fire TV, Senderlisten und mehr.',
   alternates: {
-    canonical: 'https://iptv-kaufen.de/blog',
+    canonical: 'https://iptv4k-kaufen.de/blog',
   },
 }
 
