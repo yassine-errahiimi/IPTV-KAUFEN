@@ -36,6 +36,33 @@ export default function BlogIndexPage() {
         `}</style>
         <div className="blog-grid">
 
+        <a href="/blog/iptv-kaufen-deutschland" style={{ display: 'flex', flexDirection: 'column', background: '#fff', borderRadius: '16px', overflow: 'hidden', textDecoration: 'none', color: '#111', border: '1px solid #eee', transition: 'transform 0.2s, boxShadow 0.2s', boxShadow: '0 4px 15px rgba(0,0,0,0.03)' }} className="blog-card">
+          <div style={{ width: '100%', height: '180px', background: 'url(/player-background.webp) center/cover' }}></div>
+          <div style={{ padding: '24px' }}>
+            <span style={{ color: '#d71920', fontSize: '12px', fontWeight: 800, textTransform: 'uppercase', letterSpacing: '1px', marginBottom: '10px', display: 'block' }}>Ratgeber</span>
+            <h3 style={{ margin: '0 0 12px 0', fontSize: '20px', lineHeight: 1.4, fontFamily: "'Barlow Condensed', sans-serif", fontWeight: 700 }}>IPTV kaufen in Deutschland: Worauf sollte man 2026 achten?</h3>
+            <p style={{ margin: 0, color: '#666', fontSize: '14px', lineHeight: 1.6 }}>Entdecken Sie alle wichtigen Kriterien vor dem IPTV-Kauf in diesem ausführlichen Ratgeber...</p>
+          </div>
+        </a>
+
+        <a href="/blog/germany-iptv" style={{ display: 'flex', flexDirection: 'column', background: '#fff', borderRadius: '16px', overflow: 'hidden', textDecoration: 'none', color: '#111', border: '1px solid #eee', transition: 'transform 0.2s, boxShadow 0.2s', boxShadow: '0 4px 15px rgba(0,0,0,0.03)' }} className="blog-card">
+          <div style={{ width: '100%', height: '180px', background: 'url(/player-background.webp) center/cover' }}></div>
+          <div style={{ padding: '24px' }}>
+            <span style={{ color: '#d71920', fontSize: '12px', fontWeight: 800, textTransform: 'uppercase', letterSpacing: '1px', marginBottom: '10px', display: 'block' }}>Ratgeber</span>
+            <h3 style={{ margin: '0 0 12px 0', fontSize: '20px', lineHeight: 1.4, fontFamily: "'Barlow Condensed', sans-serif", fontWeight: 700 }}>Germany IPTV: IPTV in Deutschland – Anbieter, Apps und Geräte</h3>
+            <p style={{ margin: 0, color: '#666', fontSize: '14px', lineHeight: 1.6 }}>Erfahren Sie, wie IPTV in Deutschland funktioniert und welche Geräte unterstützt werden...</p>
+          </div>
+        </a>
+
+        <a href="/blog/top-5-iptv-anbieter-deutschland" style={{ display: 'flex', flexDirection: 'column', background: '#fff', borderRadius: '16px', overflow: 'hidden', textDecoration: 'none', color: '#111', border: '1px solid #eee', transition: 'transform 0.2s, boxShadow 0.2s', boxShadow: '0 4px 15px rgba(0,0,0,0.03)' }} className="blog-card">
+          <div style={{ width: '100%', height: '180px', background: 'url(/player-background.webp) center/cover' }}></div>
+          <div style={{ padding: '24px' }}>
+            <span style={{ color: '#d71920', fontSize: '12px', fontWeight: 800, textTransform: 'uppercase', letterSpacing: '1px', marginBottom: '10px', display: 'block' }}>Vergleich</span>
+            <h3 style={{ margin: '0 0 12px 0', fontSize: '20px', lineHeight: 1.4, fontFamily: "'Barlow Condensed', sans-serif", fontWeight: 700 }}>Top 5 IPTV Anbieter in Deutschland 2026 – Vergleich & Kriterien</h3>
+            <p style={{ margin: 0, color: '#666', fontSize: '14px', lineHeight: 1.6 }}>Unser Vergleich 2026 zeigt Ihnen die besten IPTV-Anbieter und worauf Sie achten müssen...</p>
+          </div>
+        </a>
+
         <a href="/blog/iptv-kaufen-worauf-achten" style={{ display: 'flex', flexDirection: 'column', background: '#fff', borderRadius: '16px', overflow: 'hidden', textDecoration: 'none', color: '#111', border: '1px solid #eee', transition: 'transform 0.2s, boxShadow 0.2s', boxShadow: '0 4px 15px rgba(0,0,0,0.03)' }} className="blog-card">
           <div style={{ width: '100%', height: '180px', background: 'url(/player-background.webp) center/cover' }}></div>
           <div style={{ padding: '24px' }}>
