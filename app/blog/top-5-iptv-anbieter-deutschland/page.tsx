@@ -25,7 +25,7 @@ export default function BlogPostPage() {
         <nav aria-label="Hauptnavigation">
           <a href="/">Startseite</a>
           <a href="/blog" aria-current="page">Blog</a>
-          <a href="https://wa.me/212783327023?text=Hallo" target="_blank" rel="noopener noreferrer">Kontakt</a>
+          <a href="https://wa.me/447460666519?text=Hallo" target="_blank" rel="noopener noreferrer">Kontakt</a>
         </nav>
         <a className="nav-button" href="/#plans">Jetzt abonnieren</a>
       </header>
@@ -164,7 +164,7 @@ export default function BlogPostPage() {
         <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', fontSize: '14px' }}>
           <b style={{ color: '#111', textTransform: 'uppercase' }}>Hilfe</b>
           <a href="/#faqs" style={{ color: '#666', textDecoration: 'none' }}>FAQ</a>
-          <a href="https://wa.me/212783327023?text=Hallo" style={{ color: '#666', textDecoration: 'none' }} target="_blank" rel="noopener noreferrer">Kontakt (WhatsApp)</a>
+          <a href="https://wa.me/447460666519?text=Hallo" style={{ color: '#666', textDecoration: 'none' }} target="_blank" rel="noopener noreferrer">Kontakt (WhatsApp)</a>
         </div>
       </footer>
     </main>

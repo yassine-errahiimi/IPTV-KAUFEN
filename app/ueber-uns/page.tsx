@@ -115,7 +115,7 @@ export default function UeberUns() {
           <a href="/ueber-uns/">Über uns</a>
           <a href="/blog">Blog</a>
           <a href="/#plans">Abonnements</a>
-          <a href="https://wa.me/212783327023?text=Hallo%2C%20ich%20habe%20eine%20Frage%20zu%20Ihren%20IPTV-Diensten." target="_blank" rel="noopener noreferrer">Kontakt</a>
+          <a href="https://wa.me/447460666519?text=Hallo%2C%20ich%20habe%20eine%20Frage%20zu%20Ihren%20IPTV-Diensten." target="_blank" rel="noopener noreferrer">Kontakt</a>
         </nav>
         <a className="nav-button" href="/#plans">Jetzt abonnieren</a>
       </header>
@@ -204,7 +204,7 @@ export default function UeberUns() {
             </ul>
             <div style={{ display: 'flex', gap: '15px', marginTop: '30px' }}>
               <a className="button" href="/#plans">IPTV Angebote entdecken</a>
-              <a className="button" href="https://wa.me/212783327023?text=Hallo%2C%20ich%20habe%20eine%20Frage%20zu%20Ihren%20IPTV-Diensten." target="_blank" rel="noopener noreferrer" style={{ background: '#333' }}>Kontakt aufnehmen</a>
+              <a className="button" href="https://wa.me/447460666519?text=Hallo%2C%20ich%20habe%20eine%20Frage%20zu%20Ihren%20IPTV-Diensten." target="_blank" rel="noopener noreferrer" style={{ background: '#333' }}>Kontakt aufnehmen</a>
             </div>
           </div>
         </div>
@@ -247,7 +247,7 @@ export default function UeberUns() {
           </p>
           <div style={{ display: 'flex', gap: '15px', justifyContent: 'center' }}>
             <a className="button" href="/#plans">IPTV Angebote ansehen</a>
-            <a className="button" href="https://wa.me/212783327023" target="_blank" rel="noopener noreferrer" style={{ background: 'rgba(255,255,255,0.2)' }}>Kontakt</a>
+            <a className="button" href="https://wa.me/447460666519" target="_blank" rel="noopener noreferrer" style={{ background: 'rgba(255,255,255,0.2)' }}>Kontakt</a>
           </div>
         </div>
       </section>
@@ -396,7 +396,7 @@ export default function UeberUns() {
             <a href="/#top" style={{ color: '#d71920', fontWeight: 'bold', fontSize: '14px', textDecoration: 'underline' }}>Datenschutz</a>
             <a href="/#top" style={{ color: '#d71920', fontWeight: 'bold', fontSize: '14px', textDecoration: 'underline' }}>AGB</a>
             <a href="/#top" style={{ color: '#d71920', fontWeight: 'bold', fontSize: '14px', textDecoration: 'underline' }}>Widerrufsbelehrung</a>
-            <a href="https://wa.me/212783327023" target="_blank" rel="noopener noreferrer" style={{ color: '#d71920', fontWeight: 'bold', fontSize: '14px', textDecoration: 'underline' }}>Kontakt</a>
+            <a href="https://wa.me/447460666519" target="_blank" rel="noopener noreferrer" style={{ color: '#d71920', fontWeight: 'bold', fontSize: '14px', textDecoration: 'underline' }}>Kontakt</a>
           </div>
         </div>
       </section>
@@ -409,7 +409,7 @@ export default function UeberUns() {
         </p>
         <div style={{ display: 'flex', gap: '15px', justifyContent: 'center' }}>
           <a className="button" href="/#plans">IPTV kaufen</a>
-          <a className="button" href="https://wa.me/212783327023" target="_blank" rel="noopener noreferrer" style={{ background: '#f4f6fa', color: '#111' }}>Kontakt</a>
+          <a className="button" href="https://wa.me/447460666519" target="_blank" rel="noopener noreferrer" style={{ background: '#f4f6fa', color: '#111' }}>Kontakt</a>
         </div>
       </section>
 
@@ -443,7 +443,7 @@ export default function UeberUns() {
         <div>
           <b>Hilfe</b>
           <a href="/#faqs">FAQ</a>
-          <a href="https://wa.me/212783327023?text=Hallo%2C%20ich%20habe%20eine%20Frage%20zu%20Ihren%20IPTV-Diensten." target="_blank" rel="noopener noreferrer">Kontakt</a>
+          <a href="https://wa.me/447460666519?text=Hallo%2C%20ich%20habe%20eine%20Frage%20zu%20Ihren%20IPTV-Diensten." target="_blank" rel="noopener noreferrer">Kontakt</a>
         </div>
         <div>
           <b>Rechtliches</b>
